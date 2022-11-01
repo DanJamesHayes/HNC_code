@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The HazWire</title>
+    
+    <!-- Set character set and device based viewport width -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+    <!-- Set meta data for SEO -->
+    <meta name="description" content="The UK News Aggregator">
+    <meta name="keywords" content="News,Aggregator,UK">
+    
+    <!-- Dictate how older Microsoft browsers will render the page -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    
+    <!-- Link to bootstrap library and CSS style sheet -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- Header -->
+<div class="jumbotron">
+    <div class="container text-center">
+        <a href="index.html"><img src="images/thehazwire.PNG" class="img-responsive" style="width:50%" alt="The HazWire logo"></a>
+    </div>
+</div>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html">Home</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="swag.html">Swag</a></li>
+                <li><a href="bio.html">Bio</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="cart.html" style="background-color: #000"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Cart -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 text-center">
+            <hr>
+            There are no items in your cart
+            <hr>
+        </div>
+        <div class="col-sm-4">
+            <div class="well">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Total</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        Sub-total
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        £0.00
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        Delivery
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        £0.00
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        
+                        <!-- Paypal button -->
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        <!-- End of Paypal button -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->    
+<footer class="container-fluid text-center">
+    <p>The HazWire</p>  
+    <form class="form-inline">Get news updates and deals:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">Sign Up</button>
+    </form>
+</footer>
+
+</body>
+</html>

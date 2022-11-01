@@ -1,0 +1,67 @@
+.navbar {
+    border-radius: 0;
+}
+
+.jumbotron {
+    background-color: #FFF;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.well#headWell {
+    font-size: 40px;
+    text-align: center;
+    background-color: #FFF;
+    border-color: #FFF;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.well#mainWell {
+    background-color: #FFF;
+    border-color: #FFF;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
+.swagItem {
+    height: 250px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.bioPic {
+    max-height: 350px;
+    max-width: 100%;
+}
+
+.times {
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+}
